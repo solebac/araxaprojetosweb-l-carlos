@@ -37,7 +37,7 @@
     -moz-box-sizing: border-box;
 }
 .noticias__botao::placeholder{
-    padding-left: 1em;
+    padding-left: 5em;
     font-size: 15px;
     font-weight: 500;
     /* background-position: 10%; */
