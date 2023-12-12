@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div {
+    display: inline-block;
+    margin-right: 50px;
+    }
+    #triangulo-para-cima {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #5386E4;
+    }
+    #triangulo-para-direita {
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #4C4B63;
+    }
+    #triangulo-para-baixo {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #949396;
+    }
+    #triangulo-para-esquerda {
+    width: 0; 
+    height: 0; 
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+    border-right:25px solid #ABA8B2; 
+    }
+    #triangulo-bottom{
+        width: 0;
+        height: 0;
+        border-left: 1200px solid transparent;
+        border-right: 500px solid transparent;
+        border-top: 25px solid #949396;
+    }
+    #triangulo-top{
+        width: 0;
+        height: 0;
+        border-left: 500px solid transparent;
+        border-right: 1200px solid transparent;
+        border-top: 25px solid #949396;
+    }
+    #triangulo-with{
+        border-style: solid;
+        border-color: transparent;
+        width: 0;
+        height: 0;
+        border-left-width: 75vw;
+        border-right-width: 25vw;
+        border-top: 25px solid red;
+    }
+    div.dinamico{
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <div id="triangulo-bottom" class="dinamico"></div>
+    <hr>
+    <div id="triangulo-top" class="dinamico"></div>
+    <hr>
+    <div id="triangulo-with" class="dinamico"></div>
+    <!-- <div id="triangulo-para-cima"></div>
+    <div id="triangulo-para-direita"></div>
+    <div id="triangulo-para-baixo"></div>
+    <div id="triangulo-para-esquerda"></div> -->
+</body>
+</html>

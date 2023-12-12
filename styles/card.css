@@ -1,0 +1,97 @@
+.noticias__card{
+    width: 100%;
+    padding: 2em 0;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.noticias__card-item{
+    width: 100%;
+    height:620px;
+    display: inline-block;
+    padding: .4em;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    background-color: var(--cor-de-fundo-02);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+}
+.noticias__card-item-data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    /* border: 1px solid #111; */
+    /* text-align: center; */
+    background-color: var(--yellow-button);
+    color: var(--texto-button);
+    top: 45%;
+    left: 5%;
+}
+.noticias__card-item-tipo{
+    position: absolute;
+    border: 1px solid var(--cor-de-fundo-01);
+    padding: .4em .6em;
+    border-radius: 50px;
+    background-color: var(--cor-de-fundo-01);
+    color: var(--texto-button);
+    right: 5%;
+    top: 50%;
+}
+.noticias__card-item-tipo-titulo{
+    font-weight: 600;
+}
+.noticias__card-item-data-dia{
+    font-size: 22px;
+    font-weight: 600;
+}
+.noticias__card-item-data-mes{
+    font-size: 18px;
+    font-weight: 600;
+}
+.noticias__card-item-imagem{
+    width: 100%;
+}
+.card-item-imagem{
+    width: 100%;
+    height: 320px;
+    object-fit: fill;
+}
+.limit-line-02 {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.limit-line-03 {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media screen and (min-width:780px) {   
+    .noticias__card-item{
+        width: 45%;
+    }
+    
+}
+@media screen and (min-width:1024px) {   
+    .noticias__card-item{
+        width: 32%;
+    }
+    
+}
