@@ -94,6 +94,9 @@
     padding: 1em 1.5em;
     background-color: var(--yellow-button);
     margin-right: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 .apresentacao__two-item-link{
     font-size: 16px;
